@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+:root {
+    --white-color: #FFF;
+    --blue-color: #2196F3;
+    --bg-color:  #2F303A;
+    --grey-color: #757575;
+    --button-bg-color: #F5F4FA;
+    --box-border-color: #EEEEEE;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: #212121;
+}
+
+.reset-li {
+    list-style-type: none;
+}
+
+header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+header a:hover, header a:focus {
+    color: var(--blue-color);
+}
+
+.blue {
+    color: var(--blue-color);
+}
+
+footer {
+    background-color: var(--bg-color);
+    color: var(--white-color);
+}
+
+.footer--contacts {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer a:hover, footer a:focus {
+    color: var(--white-color);
+}
+
+.header--contacts a {
+    color: var(--grey-color);
+}
+
+.main--moto {
+    background-color: var(--bg-color);
+    color: var(--white-color);
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+
+.main--moto--button {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.main--moto--button:hover, .main--moto--button:focus {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.main--advantages h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.main--advantages p {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+
+.main--command h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+}
+
+.main--command p {
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+
+.portfolio--categories--button {
+    background-color: var(--button-bg-color);
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.675;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.portfolio--categories--button:hover, .portfolio--categories--button:focus {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.portfolio--cards h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio--cards p{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+
+.portfolio--cards li {
+    border: 1px solid var(--box-border-color);
+}
